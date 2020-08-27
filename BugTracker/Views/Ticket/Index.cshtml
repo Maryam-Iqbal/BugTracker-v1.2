@@ -4,7 +4,7 @@
 
 <h2>BugTracker</h2>
 
-<a class="btn btn-success" style="margin-bottom:10px" onclick="PopupForm('@Url.Action("AddOrEdit","Ticket")')"><i class="fa fa-plus"></i> Add New</a>
+<a class="btn btn-success" style="margin-bottom:15px" onclick="PopupForm('@Url.Action("AddOrEdit","Ticket")')"><i class="fa fa-plus"></i> Add New</a>
 <table id="ticketTable" class="table table-striped table-bordered" style="width:100%">
     <thead>
         <tr>
@@ -48,7 +48,7 @@
                         return "<a class='btn btn-default btn-sm' onclick=PopupForm('@Url.Action("AddOrEdit","Ticket")/" + data + "')><i class='fa fa-pencil'></i> Edit</a><a class='btn btn-danger btn-sm' style='margin-left:5px' onclick=Delete("+data+")><i class='fa fa-trash'></i> Delete</a>";
                     },
                         "orderable": false,
-                        "searchable":false,
+                        "searchable": false,
                         "width":"150px"
                     }
 
