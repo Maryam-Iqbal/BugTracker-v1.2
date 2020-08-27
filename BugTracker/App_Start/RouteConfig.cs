@@ -20,9 +20,9 @@ namespace BugTracker
             );
 
             //routes.MapRoute(
-              //  name: "Default",
-                //url: "{controller}/{action}/{id}",
-                //defaults: new { controller = "Category", action = "AddorEdit", id = UrlParameter.Optional }
+             //   name: "Default",
+             //   url: "{controller}/{action}/{id}",
+               // defaults: new { controller = "Ticket", action = "AddorEdit", id = UrlParameter.Optional }
            // );
 
 
